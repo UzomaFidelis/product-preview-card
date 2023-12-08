@@ -142,6 +142,7 @@ table {
 
 :root {
     --dark_cyan: hsl(158, 36%, 37%);
+    --very_dark_cyan: hsl(158, 36%, 25%);
     --cream: hsl(30, 38%, 92%);
     --very_dark_blue: hsl(212, 21%, 14%);
     --dark_grayish_blue: hsl(228, 12%, 48%);
@@ -255,6 +256,11 @@ main {
     width: 100%;
     height: 3.2rem;
     border: none;
+}
+
+.btn:hover {
+    background-color: var(--very_dark_cyan);
+    cursor: pointer;
 }
 
 .btn-text::before {
